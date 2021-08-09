@@ -29,7 +29,7 @@ export function displayProjectCards() {
 
     console.log("Here");
     let index = 0;
-    for (; index < (projectsItemsList.length + 1) / 2; index++) {
+    for (; index < (projectsItemsList.length) / 2; index++) {
         let elementTop = projectsItemsList[index];
         let innerHtmlStrValueT = createProjectCardhtml(elementTop);
         projectCardsContainerTop.append(innerHtmlStrValueT);
