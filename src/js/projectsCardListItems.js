@@ -82,14 +82,5 @@ const projectsItemsList = [{
         them on a UR5 industrial robot in a robot simulator
         (CoppeliaSim Edu).`,
     },
-    {
-        tags: "ML | Electronics",
-        name: "Handy Hands",
-        link: "https://github.com/Addi-11/Handy-hands",
-        imgname: "zulip.gif",
-        desc: `With intentions of learning concepts like Forward and Inverse Kinematics, Trajectory generation, Robot Dynamics, Robot
-        Control etc. Followed a course (book : MODERN ROBOTICS: MECHANICS, PLANNING, AND CONTROL ) and implemented
-        them on a UR5 industrial robot in a robot simulator
-        (CoppeliaSim Edu).`,
-    },
+
 ];
