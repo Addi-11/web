@@ -1,6 +1,31 @@
 #m_about {
-  text-align: center;
-  padding-top: 5vh;
-  min-height: 100vh; }
+    text-align: center;
+    padding-top: 5vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+#m_about-description {
+    margin: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#m_resume {
+    position: relative;
+    text-align: center;
+    font-size: 0.9rem;
+    transition-property: border;
+    border-bottom: 2px solid white;
+    transition-duration: 0.5s;
+}
+
 
 /*# sourceMappingURL=about.css.map */
