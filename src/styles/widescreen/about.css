@@ -1,0 +1,40 @@
+#about {
+    text-align: center;
+    font-family: Montserrat;
+    position: relative;
+}
+
+#about-header {
+    margin-top: 2rem;
+    font-size: 10rem;
+}
+
+#about-description {
+    margin: 10rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#resume {
+    position: absolute;
+    text-align: left;
+    bottom: 5rem;
+    right: 10rem;
+    font-size: 1.5rem;
+    transition-property: border;
+    border-bottom: 2px solid white;
+    transition-duration: 0.5s;
+}
+
+#resume:hover {
+    border-bottom: 2px solid black;
+}
+
+
+/*# sourceMappingURL=about.css.map */
