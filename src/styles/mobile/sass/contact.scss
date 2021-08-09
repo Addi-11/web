@@ -1,29 +1,17 @@
-#contact {
-    display: grid;
-    padding: 2rem;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4rem;
-    span#contact-header {
-        padding-left: 4rem;
-        grid-row-start: 2;
-        grid-column-start: 1;
-        justify-self: center;
-        align-self: center;
-        font-size: var(--head-font-size);
-        font-family: "Poppins";
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background-size: 400% 400%;
-        animation: gradient 10s ease infinite;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+#m_contact {
+    padding-top: 5vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#m_contact-head {
+    text-align: center;
 }
 
 #form-div {
-    width: 100%;
-    grid-row-start: 2;
-    grid-column-start: 2;
+    width: 80%;
+    align-self: center;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -32,7 +20,7 @@
     i {
         color: rgb(4, 109, 141);
         position: absolute;
-        top: 105%;
+        bottom: 0px;
         right: 5%;
         size: 2rem;
         &:hover {
@@ -45,7 +33,7 @@
         width: 100%;
         margin-bottom: 1rem;
         font-family: "Poppins";
-        font-size: 1rem;
+        font-size: 0.4rem;
         &:hover {
             color: rgba(88, 88, 88, 0.8);
         }
