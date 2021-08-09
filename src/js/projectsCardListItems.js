@@ -70,4 +70,5 @@ const projectsItemsList = [{
         imgname: "zulip.gif",
         desc: `This was team project, build during a hackathon. Used zulip chatbots to control an Iot based robotic arm, able to mimic arm actions from a video input. This is a simple prototype of a model helpful to surgeons.`,
     },
+
 ];
