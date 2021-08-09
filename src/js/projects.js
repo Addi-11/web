@@ -23,14 +23,27 @@ function createProjectCardhtml(e) {
 
 export function displayProjectCards() {
 
-    let projectCardsContainer = $("#projects>.cards-container");
+    let projectCardsContainerTop = $("#projects>.cards-container-top");
+    let projectCardsContainerBottom = $("#projects>.cards-container-bottom");
     let m_projectCardsContainer = $("#m_projects>.cards-container");
 
-    projectsItemsList.forEach(function(e) {
-        let innerHtmlStrValue = createProjectCardhtml(e);
-        projectCardsContainer.append(innerHtmlStrValue);
-        m_projectCardsContainer.append(innerHtmlStrValue);
-    });
+    console.log("Here");
+    for (let index = 0; index < projectsItemsList.length / 2; index++) {
+        let elementTop = projectsItemsList[index];
+        let elementBottom = projectsItemsList[index + 1];
+        let innerHtmlStrValueT = createProjectCardhtml(elementTop);
+        let innerHtmlStrValueB = createProjectCardhtml(elementBottom);
+        projectCardsContainerTop.append(innerHtmlStrValueT);
+        projectCardsContainerBottom.append(innerHtmlStrValueB);
+        m_projectCardsContainer.append(innerHtmlStrValueT);
+        m_projectCardsContainer.append(innerHtmlStrValueB);
+
+    }
+
+    // projectsItemsList.forEach(function(e) {
+    //     let innerHtmlStrValue = createProjectCardhtml(e);
+    //     projectCardsContainer.append(innerHtmlStrValue);
+    // });
 
     projectCardsContainer.append(`<div id="after-last-card" class="project-card"></div>`);
     m_projectCardsContainer.append(`<div id="after-last-card" class="project-card"></div>`);
