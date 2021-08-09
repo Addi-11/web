@@ -1,5 +1,6 @@
 #about {
     position: relative;
+    font-family: "montserrat";
 }
 
 #about>h1 {
@@ -7,6 +8,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.about-header {
     color: red;
 }
 
