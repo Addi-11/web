@@ -5,18 +5,14 @@ const projectsItemsList = [{
         name: "Depression Assistant Chatbot",
         link: "https://github.com/Addi-11/Depression-chatbot",
         imgname: "chatbot.gif",
-        desc: `We built a drone in a team of two for a competition at <a href="//techfest.org" target="_blank">TechFest</a>. The quadcopter chassis was custom made from mdf and carbon fiber arms to meet the specs of the competition. The final
-        prototype was very compact. For efficiency, we manipulated the registers (PORT Regs.) of
-        Atmega328 directly instead of using any external libraries.`,
+        desc: `Designed a virtual companion for depression patients. Implemented this using an encoder-decoder RNN architecture chatbot with Bahuandant attention mechanism. The model was trained on dataset scrapped from Reddit, with the depressed tag`,
     },
     {
         tags: "CNN | CycleGAN | Pix2Pix",
-        name: "Image Translation",
+        name: "Image-2-Image Translation",
         link: "https://github.com/Addi-11/Image_Translation",
         imgname: "pix2pix.gif",
-        desc: `Built this Data Structure as part of the <span style="font-weight: bold;">genericDataStructures</span> Library I am building for
-        learning Data Structures and Algorithms. My implementation for handling Integers of arbitrary size (BigIntegers) has faster runtime than the trivial
-        implementations for integers of arbitrary length created/used by a lot of people (on GitHub).`,
+        desc: `Build and trained a conditional generative adversarial network (cGAN) called pix2pix that learns a mapping from input images to output images, as described in <a href="https://arxiv.org/abs/1611.07004">Image-to-image translation with conditional adversarial networks</a> by Isola. It can be applied to a wide range of tasks, including synthesizing photos from label maps, generating colorized photos from black and white images, turning Google Maps photos into aerial images, and even transforming sketches into photos.`,
     },
 
     {
@@ -24,72 +20,54 @@ const projectsItemsList = [{
         name: "Neural Style Transfer",
         link: "https://github.com/Addi-11/Neural_Style_Transfer",
         imgname: "style-transfer.gif",
-        desc: `With intentions of learning concepts like Forward and Inverse Kinematics, Trajectory generation, Robot Dynamics, Robot
-        Control etc. Followed a course (book : MODERN ROBOTICS: MECHANICS, PLANNING, AND CONTROL ) and implemented
-        them on a UR5 industrial robot in a robot simulator
-        (CoppeliaSim Edu).`,
+        desc: `Producing artistic style images using different content and stlyes. This is a  tensorflow implementation of the project been described in paper : <a href="https://arxiv.org/pdf/1508.06576v2.pdf">A neural Algorithm of Artistic Style </a>.`,
     },
     {
-        tags: "CNN | DCGAN",
+        tags: "CNN | DCGAN | keras",
         name: "Image Generation",
         link: "https://github.com/Addi-11/Image_Generation",
         imgname: "dcgan.gif",
-        desc: `Built various differential drive bots on multiple occasions inorder to learn to use sensors and other electronics with arduino. Bots built include: Sonar-based Obstacle Avoider, IR-based Line Follower, Bluetooth Controlled bot.`,
+        desc: `Generating handwritten numbers using a Deep Convolutional Generative Adversial Network. The project was made in order to learn the implementation of the technique in tensorflow. Used keras sequential API for the coding.`,
     },
     {
         tags: "RL | Q-Learning | MDP",
         name: "Rock Paper Scissors",
         link: "https://github.com/Addi-11/Rock-Paper-Scissors",
         imgname: "rps.gif",
-        desc: `With intentions of learning concepts like Forward and Inverse Kinematics, Trajectory generation, Robot Dynamics, Robot
-        Control etc. Followed a course (book : MODERN ROBOTICS: MECHANICS, PLANNING, AND CONTROL ) and implemented
-        them on a UR5 industrial robot in a robot simulator
-        (CoppeliaSim Edu).`,
+        desc: `This is an AI simulation to play RPC. It was inspired by a Kaggle competition, to create an RCP playing agent capable of beating human consisitenly. The model is implemented using Q-learning, a value-based learning algorithm, that updates the value function based on an Bellman equation. The values of the Q table are filled using the MDP's (Markov Decision Process) property.`,
     },
     {
-        tags: "AI | CNN",
+        tags: "AI | MTCNN",
         name: "Facial Recognition",
         link: "https://github.com/Addi-11/Face-Recognition",
         imgname: "face-recogn.gif",
-        desc: `Theo Jansen's Mechanism based single motor driven bot. A bot that walks using 4 legs. It looks very beautiful when it <span style="font-weight: bold">walks</span>. Click on the link below to watch the video of it walking!`,
+        desc: `This application that detects and identifies multiple faces. Detection, extraction, and mapping of facial features was implemeted using MTCNN and DCNN and it is able to identify and distinguish faces in real-time.`,
     },
 
     {
-        tags: "RL | Q-Learning | OpenAI",
+        tags: "RL | Actor-Critic | OpenAI",
         name: "Cart-Pole Agent",
         link: "https://github.com/Addi-11/OpenAI-envs",
         imgname: "cartpole.gif",
-        desc: `With intentions of learning concepts like Forward and Inverse Kinematics, Trajectory generation, Robot Dynamics, Robot
-        Control etc. Followed a course (book : MODERN ROBOTICS: MECHANICS, PLANNING, AND CONTROL ) and implemented
-        them on a UR5 industrial robot in a robot simulator
-        (CoppeliaSim Edu).`,
+        desc: ` With an aim to better understand RL algorithms implemented the Actor-Critic (TD Learning) method using TensorFlow to train an agent on the Open AI Gym CartPole-V0 environment. This was course-work for the MIT Deep Learning Labs.`,
     }, {
-        tags: "WebDev | php | mysql",
+        tags: "cs | html | css | php | mysql",
         name: "Blu-Hire",
         link: "https://github.com/Addi-11/BluHire-main",
         imgname: "blu-hire.gif",
-        desc: `With intentions of learning concepts like Forward and Inverse Kinematics, Trajectory generation, Robot Dynamics, Robot
-        Control etc. Followed a course (book : MODERN ROBOTICS: MECHANICS, PLANNING, AND CONTROL ) and implemented
-        them on a UR5 industrial robot in a robot simulator
-        (CoppeliaSim Edu).`,
+        desc: ` A web aaplication for job portal, helping people to easily find and post jobs, especially during the pandemic. The web-app uses PHP as server scripting language and MySQL for databases. Build it as a semster project to establish the core fundamentals of Software Development Engineering.`,
     }, {
         tags: "CS | DSA",
         name: "Data Structure Algorithm Library",
         link: "https://github.com/Addi-11/Algorithms-n-DataStructures",
         imgname: "dsa.gif",
-        desc: `With intentions of learning concepts like Forward and Inverse Kinematics, Trajectory generation, Robot Dynamics, Robot
-        Control etc. Followed a course (book : MODERN ROBOTICS: MECHANICS, PLANNING, AND CONTROL ) and implemented
-        them on a UR5 industrial robot in a robot simulator
-        (CoppeliaSim Edu).`,
+        desc: `With intentions of learning Data Structures and Algorithms, implemented  a generic algorithm library in C++ and python, integrated with OOPs concept. Also made contributions to such open source-repositories. These contributions were specific to  Hacktober fest.`,
     },
     {
         tags: "ML | Electronics",
         name: "Handy Hands",
         link: "https://github.com/Addi-11/Handy-hands",
         imgname: "zulip.gif",
-        desc: `With intentions of learning concepts like Forward and Inverse Kinematics, Trajectory generation, Robot Dynamics, Robot
-        Control etc. Followed a course (book : MODERN ROBOTICS: MECHANICS, PLANNING, AND CONTROL ) and implemented
-        them on a UR5 industrial robot in a robot simulator
-        (CoppeliaSim Edu).`,
+        desc: `This was team project, build during a hackathon. Used zulip chatbots to control an Iot based robotic arm, able to mimic arm actions from a video input. This is a simple prototype of a model helpful to surgeons.`,
     },
 ];
