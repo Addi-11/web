@@ -1,10 +1,14 @@
 #about {
-  position: relative; }
-  #about > h1 {
+    position: relative;
+}
+
+#about>h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: red; }
+    color: red;
+}
+
 
 /*# sourceMappingURL=about.css.map */
