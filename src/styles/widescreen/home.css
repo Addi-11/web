@@ -79,7 +79,7 @@
 }
 
 #profile-img>img {
-    transform: translate(-13%, -5%);
+    transform: scale(1.5)translate(15%, 10%);
 }
 
 @keyframes float {
