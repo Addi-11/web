@@ -6,28 +6,28 @@ function displaySkillsElements() {
             "cxx.svg",
             "python3.png",
             "matlab.png",
+            "mysql.png",
             "javascript.svg",
-            "dart.svg",
 
 
-            // web-app-dev  
+            // ML lib
+            "tensorflow.png",
+            "open-ai.png",
+            "numpy.png",
+            "keras.png",
+
+            // others + web
+            "ubuntu.png",
+            "arduino.svg",
             "html.png",
             "css.png",
-            "sass.png",
-            "flutter.svg",
 
-            // rob-dev
-            "coppeliasim.png",
-            "arduino.svg",
-            "gazebo.png",
-            "ros-small.png",
-
-            // others
-            "solidworks.png",
-            "fusion360.png",
-            "ubuntu.png",
-            "pytorch-logo.png",
+            // ML left
+            "jupyter.png",
+            "scikit.png",
+            "pandas.png",
             "opencv.png",
+            "git.png",
         ];
 
         let pathPrefix = "../../imgs/skills/";
