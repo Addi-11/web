@@ -11,12 +11,46 @@ export const skillsItemsList = [{
         imgname: "matlab.png"
     },
     {
-        name: "JavaScript",
-        imgname: "javascript.svg"
+        name: "MySQL",
+        imgname: "mysql.png"
     },
     {
-        name: "Dart",
-        imgname: "dart.svg"
+        name: "OpenCV",
+        imgname: "opencv.png"
+    },
+    {
+        name: "Jupyter",
+        imgname: "jupyter.png"
+    },
+
+    {
+        name: "TensorFlow",
+        imgname: "tensorflow.png"
+    },
+    {
+        name: "Keras",
+        imgname: "keras.png"
+    },
+    {
+        name: "Numpy",
+        imgname: "numpy.png"
+    },
+    {
+        name: "Pandas",
+        imgname: "pandas.png"
+    },
+    {
+        name: "Open AI",
+        imgname: "open-ai.png"
+    },
+    {
+        name: "Scikit Learn",
+        imgname: "scikit.png"
+    },
+
+    {
+        name: "JavaScript",
+        imgname: "javascript.svg"
     },
     {
         name: "HTML5",
@@ -27,47 +61,15 @@ export const skillsItemsList = [{
         imgname: "css.png"
     },
     {
-        name: "SASS/SCSS",
-        imgname: "sass.png"
-    },
-    {
-        name: "Flutter",
-        imgname: "flutter.svg"
-    },
-    {
-        name: "Coppeliasim",
-        imgname: "coppeliasim.png"
-    },
-    {
         name: "Arduino",
         imgname: "arduino.svg"
-    },
-    {
-        name: "Gazebo",
-        imgname: "gazebo.png"
-    },
-    {
-        name: "ROS",
-        imgname: "ros-small.png"
-    },
-    {
-        name: "SOLIDWORKS",
-        imgname: "solidworks.png"
     },
     {
         name: "Linux/Ubuntu",
         imgname: "ubuntu.png"
     },
     {
-        name: "Pytorch",
-        imgname: "pytorch-logo.png"
-    },
-    {
-        name: "OpenCV",
-        imgname: "opencv.png"
-    },
-    {
-        name: "Autodesk Fusion360",
-        imgname: "fusion360.png"
+        name: "Git",
+        imgname: "git.png"
     },
 ];
